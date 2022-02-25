@@ -1,3 +1,1 @@
-IterableMappingLibrary deployed to: 0x5193cedAF0029A29b6E27e6f2C7468Af8d564C50
-$ZooHarmony deployed to: 0x8c59d7A7cEFa2Ae0EdB0b4051628d0f91B3b3c62
-$ZooHarmonyDividendTracker deployed to: 0xbD25a74fBc4eb7a7BD997060C0972fAeC9D8c61f
+## Todo: yarn build && yarn deploy:harmony

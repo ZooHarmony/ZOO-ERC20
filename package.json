@@ -7,11 +7,11 @@
     "deploy:aurora": "npx hardhat run scripts/deploy.ts --network aurora",
     "deploy:ropsten": "npx hardhat run scripts/deploy.ts --network ropsten",
     "deploy:mumbai": "npx hardhat run scripts/deploy.ts --network mumbai",
-    "verify:mumbai": "npx hardhat verify --network mumbai 0xAd2F2D10d8056ECa21A26436245AC2666a6662aB --libraries libraries.ts",
+    "verify:mumbai": "npx hardhat verify --network mumbai  --libraries libraries.ts",
     "deploy:testnet": "npx hardhat run scripts/deploy.ts --network testnet",
     "deploy:mainnet": "npx hardhat run scripts/deploy.ts --network mainnet",
-    "verify:rinkeby": "npx hardhat verify --network rinkeby 0x93865a9044213E6A1b9F0ca82E8F9BE366061b34 --libraries libraries.ts",
-    "verify:rinkeby2": "npx hardhat verify --network rinkeby 0x0CF6290EF10c1414ba24A314e96871ED6Ae2FBE3 --libraries libraries.ts"
+    "verify:rinkeby": "npx hardhat verify --network rinkeby  --libraries libraries.ts",
+    "verify:rinkeby2": "npx hardhat verify --network rinkeby  --libraries libraries.ts"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
